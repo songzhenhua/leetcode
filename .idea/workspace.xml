@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6216bb6-6f11-4644-bd0d-9c253b5f9029" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/101.对称二叉树.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/102.二叉树的层次遍历+++.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/104.二叉树的最大深度+++.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/108.将有序数组转换为二叉搜索树+++.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/98.验证二叉搜索树+++.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-    </list>
+    <list default="true" id="a6216bb6-6f11-4644-bd0d-9c253b5f9029" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,12 +77,12 @@
         <counts>
           <entry key="dummy" value="34" />
           <entry key="py" value="16550" />
-          <entry key="txt" value="11" />
+          <entry key="txt" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="45" />
+          <entry key="PLAIN_TEXT" value="48" />
           <entry key="Python" value="16550" />
         </counts>
       </usages-collector>
@@ -446,19 +438,25 @@
       <option name="project" value="LOCAL" />
       <updated>1566643660773</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="初级算法-二叉树完成">
+      <created>1567935225100</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567935225100</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17228661" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17228661" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32929516" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23898679" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23898679" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38876653" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -477,7 +475,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初级算法-链表完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="初级算法-链表完成" />
+    <MESSAGE value="初级算法-二叉树完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="初级算法-二叉树完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
