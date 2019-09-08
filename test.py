@@ -22,6 +22,6 @@ def quick_sort(data, left, right):
     return data
 
 if __name__ == "__main__":
-    num = {'a':1, 'b':2}
-    print num.get('aa',0)
-    print num
+    a=2
+    b=4
+    print (a+b)>>1
