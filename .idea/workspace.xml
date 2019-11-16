@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6216bb6-6f11-4644-bd0d-9c253b5f9029" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/12.罗马数字转整数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/204.计算质数+++.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/326.3的幂+++.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/412.Fizz Buzz.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/118.杨辉三角.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/190.颠倒的二进制位.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/191.位1的个数+++.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20.有效的括号+++.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/268.缺失数字.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/461.汉明距离.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/目录.txt" beforeDir="false" afterPath="$PROJECT_DIR$/目录.txt" afterDir="false" />
@@ -59,7 +61,7 @@
     <session id="-714317108">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="46" />
+          <entry key="project.closed" value="49" />
           <entry key="project.open.time.27" value="2" />
           <entry key="project.open.time.29" value="2" />
           <entry key="project.open.time.30" value="1" />
@@ -70,7 +72,8 @@
           <entry key="project.open.time.36" value="8" />
           <entry key="project.open.time.37" value="3" />
           <entry key="project.open.time.38" value="1" />
-          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.39" value="2" />
+          <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.41" value="2" />
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.43" value="2" />
@@ -82,21 +85,21 @@
           <entry key="project.open.time.57" value="1" />
           <entry key="project.open.time.74" value="1" />
           <entry key="project.open.time.90" value="1" />
-          <entry key="project.opened" value="47" />
+          <entry key="project.opened" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="34" />
+          <entry key="dummy" value="38" />
           <entry key="gitignore" value="4" />
-          <entry key="py" value="23603" />
+          <entry key="py" value="24833" />
           <entry key="txt" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="52" />
-          <entry key="Python" value="23603" />
+          <entry key="PLAIN_TEXT" value="56" />
+          <entry key="Python" value="24833" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -104,7 +107,7 @@
           <entry key="gitignore" value="1" />
           <entry key="jpg" value="1" />
           <entry key="png" value="4" />
-          <entry key="py" value="113" />
+          <entry key="py" value="122" />
           <entry key="pyi" value="1" />
           <entry key="txt" value="2" />
         </counts>
@@ -113,7 +116,7 @@
         <counts>
           <entry key="Image" value="5" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="113" />
+          <entry key="Python" value="122" />
           <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
@@ -124,47 +127,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/412.Fizz Buzz.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/204.计算质数+++.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/326.3的幂+++.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+            <state relative-caret-position="136">
+              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
               <folding>
-                <marker date="1570966650275" expanded="true" signature="192:735" ph="..." />
+                <element signature="e#15#24#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/12.罗马数字转整数.py">
+        <entry file="file://$PROJECT_DIR$/268.缺失数字.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="105" column="42" selection-start-line="105" selection-start-column="42" selection-end-line="105" selection-end-column="42" />
+            <state relative-caret-position="595">
+              <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+              <folding>
+                <marker date="1573899974583" expanded="true" signature="205:543" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -194,13 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/36.有效的数独.py" />
-        <option value="$PROJECT_DIR$/344.反转字符串.py" />
-        <option value="$PROJECT_DIR$/7.整数反转.py" />
-        <option value="$PROJECT_DIR$/387.字符串中的第一个唯一字符.py" />
-        <option value="$PROJECT_DIR$/extra3.数组中找2个数的和为指定数值.py" />
-        <option value="$PROJECT_DIR$/125.验证回文串.py" />
-        <option value="$PROJECT_DIR$/28.实现strStr().py" />
         <option value="$PROJECT_DIR$/8.字符串转换整数 (atoi).py" />
         <option value="$PROJECT_DIR$/38.报数.py" />
         <option value="$PROJECT_DIR$/14.最长公共前缀.py" />
@@ -243,12 +215,19 @@
         <option value="$PROJECT_DIR$/412.Fizz Buzz.py" />
         <option value="$PROJECT_DIR$/204.计算质数+++.py" />
         <option value="$PROJECT_DIR$/326.3的幂+++.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/12.罗马数字转整数.py" />
+        <option value="$PROJECT_DIR$/位1的个数+++.py" />
+        <option value="$PROJECT_DIR$/461.汉明距离.py" />
+        <option value="$PROJECT_DIR$/190.颠倒的二进制位.py" />
+        <option value="$PROJECT_DIR$/191.位1的个数+++.py" />
+        <option value="$PROJECT_DIR$/118.杨辉三角.py" />
+        <option value="$PROJECT_DIR$/20.有效的括号+++.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/268.缺失数字.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="325" />
     <option name="y" value="558" />
     <option name="width" value="1382" />
@@ -262,6 +241,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -273,7 +253,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -303,8 +282,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.12.罗马数字转整数">
-    <configuration name="12.罗马数字转整数" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.268.缺失数字">
+    <configuration name="118.杨辉三角" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -316,7 +295,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12.罗马数字转整数.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/118.杨辉三角.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -325,7 +304,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="204.计算质数+++" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="191.位1的个数+++" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -337,7 +316,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/204.计算质数+++.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/191.位1的个数+++.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -346,7 +325,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="326.3的幂+++" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="20.有效的括号+++" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -358,7 +337,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/326.3的幂+++.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20.有效的括号+++.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -367,7 +346,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="412.Fizz Buzz" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="268.缺失数字" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -379,7 +358,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/412.Fizz Buzz.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/268.缺失数字.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -411,18 +390,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.test" />
-      <item itemvalue="Python.412.Fizz Buzz" />
-      <item itemvalue="Python.204.计算质数+++" />
-      <item itemvalue="Python.326.3的幂+++" />
-      <item itemvalue="Python.12.罗马数字转整数" />
+      <item itemvalue="Python.191.位1的个数+++" />
+      <item itemvalue="Python.118.杨辉三角" />
+      <item itemvalue="Python.20.有效的括号+++" />
+      <item itemvalue="Python.268.缺失数字" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.12.罗马数字转整数" />
+        <item itemvalue="Python.268.缺失数字" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.326.3的幂+++" />
-        <item itemvalue="Python.204.计算质数+++" />
-        <item itemvalue="Python.412.Fizz Buzz" />
+        <item itemvalue="Python.20.有效的括号+++" />
+        <item itemvalue="Python.118.杨辉三角" />
+        <item itemvalue="Python.191.位1的个数+++" />
       </list>
     </recent_temporary>
   </component>
@@ -470,7 +449,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32929516" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23898679" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21365638" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.28744492" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -519,36 +498,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/36.有效的数独/36.有效的数独.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="67" column="28" lean-forward="true" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/122.买卖股票的最佳时机 II/122.买卖股票的最佳时机 II.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DI97.064/hudlib.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DI77.064/navTest.py" />
-    <entry file="file://$PROJECT_DIR$/extra1.教室活动不重叠安排/extra1.教室活动不重叠安排.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="15" lean-forward="true" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.字符串转换整数 (atoi)+++.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="86" column="28" lean-forward="true" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/189.旋转数组+++/189.旋转数组.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1293">
@@ -811,13 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/412.Fizz Buzz.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/204.计算质数+++.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -829,23 +771,81 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12.罗马数字转整数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="111" column="20" lean-forward="true" selection-start-line="111" selection-start-column="20" selection-end-line="111" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/412.Fizz Buzz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="24" column="14" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/191.位1的个数+++.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/461.汉明距离.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190.颠倒的二进制位.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="37" selection-start-line="37" selection-end-line="42" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/118.杨辉三角.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
           <folding>
-            <marker date="1570966650275" expanded="true" signature="192:735" ph="..." />
+            <marker date="1573893665657" expanded="true" signature="188:774" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20.有效的括号+++.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <marker date="1573895711481" expanded="true" signature="295:1045" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="136">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <element signature="e#15#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/12.罗马数字转整数.py">
+    <entry file="file://$PROJECT_DIR$/268.缺失数字.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="105" column="42" selection-start-line="105" selection-start-column="42" selection-end-line="105" selection-end-column="42" />
+        <state relative-caret-position="595">
+          <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+          <folding>
+            <marker date="1573899974583" expanded="true" signature="205:543" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
