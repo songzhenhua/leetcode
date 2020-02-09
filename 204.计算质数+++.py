@@ -22,7 +22,7 @@ class Solution(object):
                     return False
             return True
         n = n-1
-        if n < 3:
+        if n < 2:
             return 0
         counter = 1  # 直接将2算为质数并计数
         for j in range(3, n+1):
@@ -51,5 +51,5 @@ class Solution(object):
 
 if __name__ == "__main__":
     s = Solution()
-    print s.countPrimes1(6)
+    print s.countPrimes(10)
 
