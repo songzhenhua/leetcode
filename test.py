@@ -6,5 +6,10 @@ import sys
 
 
 if __name__ == "__main__":
-    l = [0 for i in range(5)]
-    print l
+    pattern = re.compile(r'abc\w*')
+    with open("aaa", 'r') as f:
+        contents = f.readlines()
+        for content in contents:
+            content.strip('\n')
+            result = pattern.findall(content)
+            print result
